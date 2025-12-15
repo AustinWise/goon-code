@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Sparkles } from 'lucide-react';
+import { Menu, X, Banana } from 'lucide-react';
 import Button from './ui/Button';
 
 const Navbar: React.FC = () => {
@@ -26,9 +26,9 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 group">
           <div className="relative flex items-center justify-center w-8 h-8 rounded-lg bg-indigo-600 group-hover:bg-indigo-500 transition-colors">
-            <Sparkles className="w-5 h-5 text-white" />
+            <Banana className="w-5 h-5 text-white" />
           </div>
-          <span className="font-bold text-xl tracking-tight text-white">VibeCode</span>
+          <span className="font-bold text-xl tracking-tight text-white">GoonCode</span>
         </a>
 
         {/* Desktop Nav */}
@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
               </a>
             ))}
           </div>
-          <Button variant="outline" size="sm">Get Started</Button>
+          <Button variant="outline" size="sm">Get Gooning</Button>
         </div>
 
         {/* Mobile Toggle */}

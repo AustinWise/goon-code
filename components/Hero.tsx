@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
           className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-sm font-medium text-indigo-300 mb-8 backdrop-blur-md"
         >
           <span className="flex h-2 w-2 rounded-full bg-indigo-400 animate-pulse"></span>
-          The syntax era is ending. The vibe era is here.
+          The syntax era is ending. The goon era is here.
         </motion.div>
 
         <motion.h1
@@ -33,9 +33,9 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white mb-6 leading-[1.1]"
         >
-          Code at the <br />
+          Forget vibe coding <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-white to-indigo-300">
-            Speed of Thought
+            start goon coding
           </span>
         </motion.h1>
 
@@ -45,9 +45,9 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          Stop wrestling with boilerplates and syntax errors. 
-          Vibe coding lets you build complex applications using 
-          natural language, intent, and pure creativity.
+          Stop engaging in conscience thought. Slacken your jaw.
+          Roll your eyes back into your head. Let the drool dribble down you chin.
+          And edge the AI vibes for hours at end with Vibe Mommy.
         </motion.p>
 
         <motion.div
@@ -57,12 +57,12 @@ const Hero: React.FC = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <Button variant="secondary" size="lg" className="w-full sm:w-auto group">
-            Start Vibe Coding
+            Get Gooning
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
           <Button variant="outline" size="lg" className="w-full sm:w-auto">
             <Play className="mr-2 w-5 h-5 fill-current" />
-            Watch the Demo
+            See Vibe Caves
           </Button>
         </motion.div>
 
