@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Concept from './components/Concept';
 import HowItWorks from './components/HowItWorks';
-import EditorDemo from './components/EditorDemo';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import Button from './components/ui/Button';
@@ -25,7 +24,6 @@ const App: React.FC = () => {
       <main>
         <Hero />
         <Concept />
-        <EditorDemo />
         <HowItWorks />
         
         {/* Large CTA Section */}
