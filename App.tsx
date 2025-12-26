@@ -25,6 +25,7 @@ const App: React.FC = () => {
         <Hero />
         <Concept />
         <HowItWorks />
+        <Testimonials />
         
         {/* Large CTA Section */}
         <section className="py-24 relative overflow-hidden">
@@ -43,7 +44,6 @@ const App: React.FC = () => {
           </div>
         </section>
 
-        <Testimonials />
       </main>
 
       <Footer />
