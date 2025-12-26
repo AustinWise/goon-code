@@ -36,11 +36,29 @@ const Testimonials: React.FC = () => {
 
   useEffect(() => {
     const dialog = dialogRef.current;
+    
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (selectedIndex === null) return;
+      if (e.key === 'ArrowLeft') {
+        setSelectedIndex((prev) => (prev !== null ? (prev - 1 + testimonialData.length) % testimonialData.length : null));
+      } else if (e.key === 'ArrowRight') {
+        setSelectedIndex((prev) => (prev !== null ? (prev + 1) % testimonialData.length : null));
+      }
+    };
+
     if (selectedIndex !== null) {
       dialog?.showModal();
+      document.body.style.overflow = 'hidden';
+      window.addEventListener('keydown', handleKeyDown);
     } else {
       dialog?.close();
+      document.body.style.overflow = 'unset';
     }
+    
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      document.body.style.overflow = 'unset';
+    };
   }, [selectedIndex]);
 
   const handleClose = () => setSelectedIndex(null);
