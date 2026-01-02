@@ -87,38 +87,7 @@ const Hero: React.FC = () => {
                 
                 {/* Editor Content Split */}
                 <div className="flex-1 flex flex-col md:flex-row p-4 md:p-6 gap-6 overflow-hidden">
-                   {/* Left: Natural Language Input */}
-                   <div className="flex-1 flex flex-col gap-3">
-                      <div className="text-xs font-mono text-indigo-400 mb-1 flex items-center gap-2">
-                         <div className="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></div>
-                         YOUR VIBE (PROMPT)
-                      </div>
-                      <div className="text-slate-300 font-medium text-lg md:text-xl leading-relaxed">
-                         "Create a retro-futuristic dashboard that tracks solar flares. Use neon orange and deep purple. Make the charts glow."
-                      </div>
-                   </div>
-
-                   {/* Center: Arrow (Mobile: Down, Desktop: Right) */}
-                   <div className="flex items-center justify-center text-slate-600">
-                      <Zap className="w-6 h-6 animate-pulse text-yellow-400" />
-                   </div>
-
-                   {/* Right: Code/Preview Output */}
-                   <div className="flex-1 rounded bg-slate-900/50 border border-white/5 p-4 font-mono text-xs md:text-sm text-slate-400 overflow-hidden relative">
-                      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-slate-900/80"></div>
-                      <span className="text-purple-400">import</span> React <span className="text-purple-400">from</span> <span className="text-green-400">'react'</span>;<br/>
-                      <span className="text-purple-400">import</span> {'{ Line }'} <span className="text-purple-400">from</span> <span className="text-green-400">'recharts'</span>;<br/><br/>
-                      <span className="text-slate-500">// AI-generated component based on vibe signature</span><br/>
-                      <span className="text-blue-400">const</span> <span className="text-yellow-200">SolarDashboard</span> = () ={'>'} {'{'}<br/>
-                      &nbsp;&nbsp;<span className="text-blue-400">return</span> (<br/>
-                      &nbsp;&nbsp;&nbsp;&nbsp;{'<'}<span className="text-red-300">div</span> <span className="text-sky-300">className</span>=<span className="text-green-300">"bg-slate-950 p-6 shadow-[0_0_50px_#a855f7]"</span>{'>'}<br/>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'<'}<span className="text-red-300">h1</span> <span className="text-sky-300">className</span>=<span className="text-green-300">"text-orange-500 font-display glow-text"</span>{'>'}<br/>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SOLAR ACTIVITY<br/>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'</'}<span className="text-red-300">h1</span>{'>'}<br/>
-                      &nbsp;&nbsp;&nbsp;&nbsp;{'</'}<span className="text-red-300">div</span>{'>'}<br/>
-                      &nbsp;&nbsp;);<br/>
-                      {'}'};
-                   </div>
+                  <img width="1000" height="1000" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=1000" />
                 </div>
              </div>
           </div>
