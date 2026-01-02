@@ -30,7 +30,7 @@ const HowItWorks: React.FC = () => {
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-indigo-900/50 to-transparent"></div>
       
       <div className="flex flex-col lg:flex-row gap-16 items-start">
-        <div className="lg:w-1/3 sticky top-32">
+        <div className="lg:w-1/3 top-32">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">From Thought to <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-400">Reality</span></h2>
           <p className="text-slate-400 text-lg mb-8">
             The traditional development lifecycle is broken. Vibe coding unifies design, development, and deployment into a single, fluid conversation.

@@ -1,7 +1,10 @@
-import React from 'react';
-import { motion } from 'framer-motion';
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+import React from 'react';
+import { motion, HTMLMotionProps } from 'framer-motion';
+
+// Extending HTMLMotionProps<"button"> instead of React.ButtonHTMLAttributes<HTMLButtonElement>
+// ensures that the props passed to <motion.button> have the correct types for motion-specific handlers.
+interface ButtonProps extends HTMLMotionProps<"button"> {
   variant?: 'primary' | 'secondary' | 'outline' | 'ghost';
   size?: 'sm' | 'md' | 'lg';
   children: React.ReactNode;

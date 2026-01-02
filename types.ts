@@ -18,8 +18,6 @@ export interface Step {
 }
 
 export interface Testimonial {
-  quote: string;
-  author: string;
-  role: string;
-  avatar: string;
+  image: string;
+  handle: string;
 }
