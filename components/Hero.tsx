@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
            <div className="absolute top-[30%] right-[10%] w-96 h-96 bg-indigo-500/20 rounded-full blur-[100px] animate-blob animation-delay-2000 mix-blend-screen" />
            <div className="absolute bottom-[20%] left-[30%] w-80 h-80 bg-blue-500/20 rounded-full blur-[100px] animate-blob animation-delay-4000 mix-blend-screen" />
         </div>
-        <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 brightness-100 contrast-150"></div>
+        <div className="absolute inset-0 bg-[url('noise.svg')] opacity-20 brightness-100 contrast-150"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10 text-center">
