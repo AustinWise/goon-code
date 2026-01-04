@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+/* For compatibility with Tailwind 3 used in the AI Studio version.
+ * https://tailwindcss.com/docs/upgrade-guide#dialog-margins-removed
+ */
+@layer base {
+  dialog {
+    margin: auto;
+  }
+}
