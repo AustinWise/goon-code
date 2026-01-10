@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
                 
                 {/* Editor Content Split */}
                 <div className="flex-1 flex flex-col md:flex-row p-4 md:p-6 gap-6 overflow-hidden">
-                  <img width="1000" height="1000" src="caves/austinwise.jpg" />
+                  <img width="1000" height="1000" src="/caves/austinwise.jpg" />
                 </div>
              </div>
           </div>

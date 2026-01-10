@@ -5,7 +5,7 @@ import { Testimonial } from '../types';
 
 const testimonialData: Testimonial[] = [
   {
-    image: "caves/austinwise.jpg",
+    image: "/caves/austinwise.jpg",
     handle: "AustinWise",
     link: "https://github.com/AustinWise",
   }
