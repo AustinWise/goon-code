@@ -6,27 +6,8 @@ import { Testimonial } from '../types';
 const testimonialData: Testimonial[] = [
   {
     image: "caves/austinwise.jpg",
-    handle: "@sarah_vibe"
-  },
-  {
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=1000",
-    handle: "@mchen_builds"
-  },
-  {
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=1000",
-    handle: "@elena_codes"
-  },
-  {
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=1000",
-    handle: "@marcus_vibe"
-  },
-  {
-    image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=1000",
-    handle: "@jay_dev"
-  },
-  {
-    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=1000",
-    handle: "@sophia_labs"
+    handle: "AustinWise",
+    link: "https://github.com/AustinWise",
   }
 ];
 
@@ -87,7 +68,7 @@ const Testimonials: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-            The caves of the <span className="text-indigo-400">Goon Era</span>
+            The caves of the <span className="text-indigo-400">Goon Code Era</span>
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
             The setups where the goonmeisters make the magic happen.
@@ -156,7 +137,9 @@ const Testimonials: React.FC = () => {
               </div>
               <div className="mt-6 text-center">
                 <h3 className="text-2xl font-bold text-white tracking-tight font-mono">
-                  {testimonialData[selectedIndex].handle}
+                  <a href={testimonialData[selectedIndex].link} target="_blanks">
+                    {testimonialData[selectedIndex].handle}
+                  </a>
                 </h3>
               </div>
             </div>

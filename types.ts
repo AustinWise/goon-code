@@ -20,4 +20,5 @@ export interface Step {
 export interface Testimonial {
   image: string;
   handle: string;
+  link: string;
 }
