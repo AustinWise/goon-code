@@ -5,7 +5,7 @@ import { Testimonial } from '../types';
 
 const testimonialData: Testimonial[] = [
   {
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=1000",
+    image: "caves/austinwise.jpg",
     handle: "@sarah_vibe"
   },
   {
@@ -87,10 +87,10 @@ const Testimonials: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-            The Faces of the <span className="text-indigo-400">Vibe Era</span>
+            The caves of the <span className="text-indigo-400">Goon Era</span>
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-            Top creators and developers who have transcended syntax.
+            The setups where the goonmeisters make the magic happen.
           </p>
         </div>
         

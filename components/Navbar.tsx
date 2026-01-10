@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
               </a>
             ))}
           </div>
-          <Button variant="outline" size="sm">Get Gooning</Button>
+          <Button variant="outline" size="sm">Start Gooning</Button>
         </div>
 
         {/* Mobile Toggle */}

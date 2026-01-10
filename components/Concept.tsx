@@ -7,22 +7,22 @@ const features = [
   {
     icon: <Brain className="w-6 h-6 text-pink-400" />,
     title: "Intent Over Syntax",
-    description: "Forget missing semicolons. Describe your logic in plain English, and let the AI architect the implementation details."
+    description: "Don't worry about how you get there, just let pure desire dictate what gets make."
   },
   {
     icon: <Sparkles className="w-6 h-6 text-purple-400" />,
-    title: "Creative Flow State",
-    description: "Maintain your creative momentum. Vibe coding removes the friction between having an idea and seeing it live."
+    title: "Goblin Mode", // TODO: mixing Goblin mode and gooning might send mixed signals
+    description: "Learn back in your chair and let the code wash over you. Keep your eyes unfocused and your tongue hanging out while the AI agent runs your life."
   },
   {
     icon: <MessageSquareCode className="w-6 h-6 text-blue-400" />,
-    title: "Natural Language API",
-    description: "Your voice is the ultimate SDK. Command complex data structures and UI components just by speaking them into existence."
+    title: "Always be gooning",
+    description: "Tell everyone how much code you can goon, even if you haven't yet. Your coding agents can build the project faster than your customer can figure out you sold them something that dose not exist."
   },
   {
     icon: <Zap className="w-6 h-6 text-yellow-400" />,
-    title: "Instant Iteration",
-    description: "Don't like the vibe? Change it instantly. Refine, tweak, and pivot your application's direction in seconds, not hours."
+    title: "Logjammin Interruptus",
+    description: "Don't worry about 'building consensus' with teammates, just pump, pump out the code. Code wins arguments."
   }
 ];
 
@@ -30,9 +30,10 @@ const Concept: React.FC = () => {
   return (
     <Section id="concept" className="bg-slate-950/50">
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">What is <span className="text-indigo-400">Vibe Coding</span>?</h2>
+        <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">What is <span className="text-indigo-400">Goon Coding</span>?</h2>
         <p className="text-slate-400 text-lg leading-relaxed">
-          It's a paradigm shift. Instead of writing code line-by-line, you guide an intelligent agent through the creative process. You provide the "vibe"—the intent, the aesthetic, the logic—and the AI handles the heavy lifting.
+          It's the next step beyond vibe coding. Its when you stop trying to pretend that your own conscience
+          thought has any value and let the agents take over.
         </p>
       </div>
 
