@@ -6,8 +6,8 @@ import Section from './ui/Section';
 const features = [
   {
     icon: <Brain className="w-6 h-6 text-pink-400" />,
-    title: "Intent Over Syntax",
-    description: "Don't worry about how you get there, just let pure desire dictate what gets make."
+    title: "Pure Id",
+    description: "Don't worry about the consequences, just let your desire dictate you make."
   },
   {
     icon: <Sparkles className="w-6 h-6 text-purple-400" />,

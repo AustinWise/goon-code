@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
           className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-sm font-medium text-indigo-300 mb-8 backdrop-blur-md"
         >
           <span className="flex h-2 w-2 rounded-full bg-indigo-400 animate-pulse"></span>
-          Vibe coding is tired, goon coding is wired.
+          Get code flowing out the wazoo.
         </motion.div>
 
         <motion.h1
