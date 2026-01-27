@@ -1,18 +1,18 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Brain, Sparkles, Zap, MessageSquareCode } from 'lucide-react';
+import { Brain, MessageSquareCode, PersonStanding, TreePalm } from 'lucide-react';
 import Section from './ui/Section';
 
 const features = [
   {
     icon: <Brain className="w-6 h-6 text-pink-400" />,
-    title: "Pure Surrender",
-    description: "Don't worry about syntax or architecture, just let the AI agents cook."
+    title: "Turn your brain off",
+    description: "Learn back in your chair and let the code wash over you. Keep your eyes unfocused and your tongue hanging out while the AI agent runs your life."
   },
   {
-    icon: <Sparkles className="w-6 h-6 text-purple-400" />,
-    title: "Goblin Mode", // TODO: mixing Goblin mode and gooning might send mixed signals
-    description: "Learn back in your chair and let the code wash over you. Keep your eyes unfocused and your tongue hanging out while the AI agent runs your life."
+    icon: <PersonStanding className="w-6 h-6 text-purple-400" />,
+    title: "Do it alone",
+    description: "Don't worry about 'building consensus' with teammates, just pump, pump out the code. Code wins arguments."
   },
   {
     icon: <MessageSquareCode className="w-6 h-6 text-blue-400" />,
@@ -20,9 +20,9 @@ const features = [
     description: "Tell everyone how much code you can goon, even if you haven't yet. Your coding agents can build the project faster than your customer can figure out you sold them something that dose not exist."
   },
   {
-    icon: <Zap className="w-6 h-6 text-yellow-400" />,
-    title: "Logjammin Interruptus",
-    description: "Don't worry about 'building consensus' with teammates, just pump, pump out the code. Code wins arguments."
+    icon: <TreePalm className="w-6 h-6 text-yellow-400" />,
+    title: "Take no responsibility for maintenance",
+    description: "Just ship the code and walk away. Let dependabot take the wheel and cross your fingers that nothings breaks."
   }
 ];
 
