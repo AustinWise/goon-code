@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Play, Code2, Zap } from 'lucide-react';
+import { ArrowRight, Play } from 'lucide-react';
 import Button from './ui/Button';
 
 const Hero: React.FC = () => {
@@ -66,7 +66,6 @@ const Hero: React.FC = () => {
           </Button>
         </motion.div>
 
-        {/* Floating Code/Vibe Snippets Visualization */}
         <motion.div
            initial={{ opacity: 0, scale: 0.9 }}
            animate={{ opacity: 1, scale: 1 }}

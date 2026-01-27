@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Github, Twitter, Linkedin } from 'lucide-react';
+import { Banana, Github, Twitter, Linkedin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -9,12 +9,12 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <a href="#" className="flex items-center gap-2 mb-6">
               <div className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center">
-                <Sparkles className="w-5 h-5 text-white" />
+                <Banana className="w-5 h-5 text-white" />
               </div>
-              <span className="font-bold text-xl text-white">VibeCode</span>
+              <span className="font-bold text-xl text-white">GoonCode</span>
             </a>
             <p className="text-slate-400 max-w-sm mb-6">
-              Empowering creators to build the future through the power of natural language and intent-driven development.
+              The solipsistic and onanistic software development methodology.
             </p>
             <div className="flex gap-4">
                <a href="#" className="text-slate-400 hover:text-white transition-colors"><Twitter className="w-5 h-5" /></a>
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="pt-8 border-t border-white/5 text-center text-slate-500 text-sm">
-          &copy; {new Date().getFullYear()} VibeCode Inc. All rights reserved.
+          &copy; {new Date().getFullYear()}, all rights reserved.
         </div>
       </div>
     </footer>
