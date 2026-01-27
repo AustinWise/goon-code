@@ -6,8 +6,8 @@ import Section from './ui/Section';
 const features = [
   {
     icon: <Brain className="w-6 h-6 text-pink-400" />,
-    title: "Pure Id",
-    description: "Don't worry about the consequences, just let your desire dictate you make."
+    title: "Pure Surrender",
+    description: "Don't worry about syntax or architecture, just let the AI agents cook."
   },
   {
     icon: <Sparkles className="w-6 h-6 text-purple-400" />,
@@ -33,7 +33,7 @@ const Concept: React.FC = () => {
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">What is <span className="text-indigo-400">Goon Coding</span>?</h2>
         <p className="text-slate-400 text-lg leading-relaxed">
           It's the next step beyond vibe coding. Its when you stop trying to pretend that your own conscience
-          thought has any value and let the agents take over.
+          thought has any value and let the AI agents take over.
         </p>
       </div>
 

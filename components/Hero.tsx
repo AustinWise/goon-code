@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
           className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-sm font-medium text-indigo-300 mb-8 backdrop-blur-md"
         >
           <span className="flex h-2 w-2 rounded-full bg-indigo-400 animate-pulse"></span>
-          Get code flowing out the wazoo.
+          Code coming out the wazoo.
         </motion.div>
 
         <motion.h1
@@ -45,8 +45,9 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          You already stopped thinking about code. Now surrender your last grip on agency to LLM
-          agents and let LLM coding tools run your life. You love the agents and they love you.
+          You already stopped writing code. Now achieve nirvana by surrendering any claim of agency
+          on your codebase. AI agents make all the decisions now and yuu are happy.
+          You love the agents and they love you.
         </motion.p>
 
         <motion.div
