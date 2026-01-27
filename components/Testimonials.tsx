@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import Section from './ui/Section';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { Testimonial } from '../types';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const testimonialData: Testimonial[] = [
   {
@@ -101,8 +102,15 @@ const Testimonials: React.FC = () => {
         onClose={handleClose}
         className="bg-transparent p-0 outline-none backdrop:bg-slate-950/90 backdrop:backdrop-blur-md max-w-[90vw] max-h-[90vh] overflow-visible"
       >
-        {selectedIndex !== null && (
-          <div className="relative group">
+        <AnimatePresence>
+          {selectedIndex !== null && (
+            <motion.div 
+              className="relative group"
+              initial={{ opacity: 0, scale: 0.9, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: 20 }}
+              transition={{ duration: 0.3, ease: "easeOut" }}
+            >
             {/* Close Button */}
             <button 
               onClick={handleClose}
@@ -143,8 +151,9 @@ const Testimonials: React.FC = () => {
                 </h3>
               </div>
             </div>
-          </div>
-        )}
+            </motion.div>
+          )}
+        </AnimatePresence>
       </dialog>
     </Section>
   );
