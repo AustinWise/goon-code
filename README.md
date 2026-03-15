@@ -3,7 +3,8 @@
 LET ME EXPLAIN THE JOKE FOR YOU.
 
 This is my silly website attempting to make fun of the concept of "vibe coding".
-It relates the concept of "vibe coding" with the concept if "gooning", both of which involve surrendering
+It relates the concept of "vibe coding" with the concept of
+"[gooning](https://knowyourmeme.com/sensitive/memes/gooning-goon-cave)", both of which involve surrendering
 control over your conscience mind to external forces.
 I think the proponents of these LLM-powered code generators overstate the ability these devices to
 generate maintainable code. More importantly, they overstate the ability of the people to maintain
