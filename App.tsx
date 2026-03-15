@@ -36,7 +36,7 @@ const App: React.FC = () => {
           <div className="container mx-auto px-4 relative z-10 text-center">
              <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">Ready to catch the vibe?</h2>
              <p className="text-xl text-slate-300 max-w-2xl mx-auto mb-10">
-               Join thousands of developers who have stopped writing boilerplate and started building dreams.
+               Join thousands of developers who have turned their brains off.
              </p>
              <Button size="lg" variant="secondary" onClick={handleJoinWaitlist}>
                Join the Waitlist
