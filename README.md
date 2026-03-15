@@ -27,6 +27,24 @@ a single origin with no API, so the vulnerability surface is low.
 
 This site is a pile pf unmaintainable Tailwind garbage. So that's kind of the point.
 
+## Contributing
+
+If you want to upload a picture of your vide cave, perform the following steps:
+
+1. Clone this repo.
+2. Add a picture of your vibe cave under `public/caves/`. Try to make it not too big on a file size basis,
+   like maybe under 1MiB?
+3. Update the data structure at the top of `components/Testimonials.tsx` to include your picture.
+4. Open a pull request.
+
+In spite of this website's allusions to the NSFW concept of "gooning", please keep your picture,
+name, and link safe for work. Unless it is reallllllllly funny. Approvals of submissions are at my
+sole discretion.
+
+Currently this repo is [licensed](./LICENSE) under the GNU Affero General Public License.
+If you can think of a good reason for this to be licensed under something less restrictive, feel
+free to open an issue.
+
 ## Running locally
 
 Have Node.js installed in one way or another on your machine. Then:
