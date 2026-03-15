@@ -145,7 +145,7 @@ const Testimonials: React.FC = () => {
               </div>
               <div className="mt-6 text-center">
                 <h3 className="text-2xl font-bold text-white tracking-tight font-mono">
-                  <a href={testimonialData[selectedIndex].link} target="_blanks">
+                  <a href={testimonialData[selectedIndex].link} target="_blanks" rel="nofollow">
                     {testimonialData[selectedIndex].handle}
                   </a>
                 </h3>
