@@ -46,25 +46,9 @@ const Hero: React.FC = () => {
           className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed"
         >
           You already stopped writing code. Now achieve nirvana by surrendering any claim of agency
-          on your codebase. AI agents make all the decisions now and yuu are happy.
+          on your codebase. AI agents make all the decisions now and you are happy.
           You love the agents and they love you.
         </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4"
-        >
-          <Button variant="secondary" size="lg" className="w-full sm:w-auto group">
-            Start Gooning
-            <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </Button>
-          <Button variant="outline" size="lg" className="w-full sm:w-auto">
-            <Play className="mr-2 w-5 h-5 fill-current" />
-            See Vibe Caves
-          </Button>
-        </motion.div>
 
         <motion.div
            initial={{ opacity: 0, scale: 0.9 }}
