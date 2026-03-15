@@ -21,11 +21,12 @@ using LLMs is not going to be this problem better.
 
 ![What are you looking at? You've never see a hypocrite before?](hypocrite-big-bang-theory.gif)
 
-Fair, fair. But after generating the initial site, I trimmed the dependencies so everything is statically
-generated (no downloading assets from other origins). And this website is just HTML and JavaScript from
-a single origin with no API, so the vulnerability surface is low.
-
-This site is a pile pf unmaintainable Tailwind garbage. So that's kind of the point.
+Fair, fair. I suck at front end. But I have enough taste to know that this site sucks.
+The process of creating this confirmed that Tailwind causes more problems than it solves in frontend.
+And I trimmed all extern dependencies so at least this SPA pile of garbage loads from a single origin.
+I'm fairly confident that I will never have to touch this site again after shipping it.
+It's just a dumb joke. To apply the same level of care to something that would actually affect real
+people's lives would be totally lame.
 
 ## Contributing
 
