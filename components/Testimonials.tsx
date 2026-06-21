@@ -6,9 +6,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const testimonialData: Testimonial[] = [
   {
-    image: "/caves/example.jpg",
-    handle: "example",
-    link: "https://example.com",
+    image: "/caves/awise.jpg",
+    handle: "Austin Wise",
+    link: "https://awise.us",
   }
 ];
 
